@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+body {
+    background-color: #d7d7d7;
+}
+
+.mobile-div {
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    background-color: rgba(173, 179, 182, 0.731);
+    position: relative;
+    border-radius: 40px;
+    margin-top: 50px;
+    box-shadow: 8px 8px 8px #fff,
+    -8px -8px 8px #fff;
+}
+
+.mobile-img {
+    background: url(./iphone.jpg);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top:50px;
+    border: 2px solid rgba(249, 235, 161, 0.48);
+    border-radius: 13px;
+    
+     
+}
+.head-info {
+    text-align: center;
+    background-color: #d7d7d7;
+    border-radius: 10px;
+}
+.information {
+    margin-top: 65px;
+    padding: 50px;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+.software {
+    margin-top: 20px;
+    width: 100%;
+    /* text-align: ; */
+}
+.software p:hover {
+    background-color: #d7d7d7;
+    cursor: pointer;
+}
+.svg-icon img {
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    right:20px;
+
+    
+}
